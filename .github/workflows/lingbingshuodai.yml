@@ -3,7 +3,7 @@ name: lingbingshuodai
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
+    - cron: '36 5/6 * * *'
 
 jobs:
   build:
@@ -13,24 +13,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: lingbingshuodai
         env:
-          aqm65803: ${{ secrets.aqm65803 }}
+          z084: ${{ secrets.z084 }}
         run: |
-          echo $aqm65803 | jq -r .v6 | /bin/bash
-          echo $gocvb9935 | jq -r .imerx30 | /bin/bash
-          echo $aj2 | jq -r .yiz235 | /bin/bash
-          echo $la4 | jq -r .gqg1 | /bin/bash
-          echo $jv34490 | jq -r .f7 | /bin/bash
-          echo $ew06 | jq -r .rii01157 | /bin/bash
-          echo $cs0577 | jq -r .msnc31 | /bin/bash
-          echo $vi5599 | jq -r .bctya875 | /bin/bash
-          echo $pmnq7700 | jq -r .d693 | /bin/bash
-          echo $snx397 | jq -r .evtiq65349 | /bin/bash
-          echo $kyg260 | jq -r .vvxhr6439 | /bin/bash
-          echo $dhoeq452 | jq -r .yvqg09 | /bin/bash
-          echo $pw72 | jq -r .y5 | /bin/bash
-          echo $swe5 | jq -r .kzhh639 | /bin/bash
-          echo $kqu641 | jq -r .o5647 | /bin/bash
-          echo $t970 | jq -r .xcmh75114 | /bin/bash
-          echo $bxe21343 | jq -r .jh01763 | /bin/bash
-          echo $bsagn83 | jq -r .yzbnh34 | /bin/bash
+          echo $z084 | jq -r .u302 | /bin/bash
+          echo $xwy54 | jq -r .b61254 | /bin/bash
+          echo $ya4 | jq -r .tyzu17 | /bin/bash
+          echo $t97 | jq -r .ip467 | /bin/bash
+          echo $lzvx94679 | jq -r .g98159 | /bin/bash
+          echo $ec1905 | jq -r .yz87 | /bin/bash
+          echo $uz20 | jq -r .ucyj2827 | /bin/bash
+          echo $mtow66 | jq -r .yghtl5228 | /bin/bash
+          echo $qw23 | jq -r .jns5 | /bin/bash
+          echo $xwobl9110 | jq -r .bwpxh44437 | /bin/bash
+          echo $xh73 | jq -r .xpa36 | /bin/bash
+          echo $oxfp670 | jq -r .ooa50 | /bin/bash
+          echo $i204 | jq -r .lgu88 | /bin/bash
+          echo $k97290 | jq -r .uevax01840 | /bin/bash
+          echo $o573 | jq -r .zjqy1 | /bin/bash
+          echo $u003 | jq -r .sris4 | /bin/bash
+          echo $jmj153 | jq -r .uymx6463 | /bin/bash
+          echo $djk2 | jq -r .tpp36 | /bin/bash
 
