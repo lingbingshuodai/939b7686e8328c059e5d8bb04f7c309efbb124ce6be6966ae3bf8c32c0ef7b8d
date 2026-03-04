@@ -2,7 +2,7 @@ name: lingbingshuodai
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
+    - cron: '52 2/6 * * *'
 
 jobs:
   build:
@@ -11,10 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: lingbingshuodai
         env:
-          bhnxp9392: ${{ secrets.bhnxp9392 }}
+          ow1001: ${{ secrets.ow1001 }}
         run: |
-          echo $bhnxp9392 | jq -r .m850 | /bin/bash
-          echo $noe004 | jq -r .p731 | /bin/bash
-          echo $cfhh70130 | jq -r .g0 | /bin/bash
-          echo $pkyas28 | jq -r .wcg15 | /bin/bash
+          echo $ow1001 | jq -r .wh17 | /bin/bash
+          echo $uod5766 | jq -r .k40428 | /bin/bash
+          echo $mgkw28077 | jq -r .upj9262 | /bin/bash
+          echo $r71876 | jq -r .dk5080 | /bin/bash
+          echo $lyim895 | jq -r .nsmg462 | /bin/bash
+          echo $gl13 | jq -r .jdjsk5061 | /bin/bash
+          echo $bts2703 | jq -r .azlt193 | /bin/bash
+          echo $qqnn9 | jq -r .ieru5380 | /bin/bash
+          echo $j57 | jq -r .zwkta67187 | /bin/bash
+          echo $msp47776 | jq -r .cl1 | /bin/bash
 
